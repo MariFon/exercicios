@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 7</title>
+</head>
+<body>
+    <h1>Salário Líquido</h1>
+
+    <p>Digite o total do seu salário no referido mês, sabendo-se que são descontados 11% para o Imposto de Renda, 8% para o INSS e 5% para o sindicato, o saldo irá mostrar:</p>
+
+    <ul>
+        <li>Salário bruto;</li>
+        <li>Quanto pagou ao INSS;</li>
+        <li>Quanto pagou ao sindicato;</li>
+        <li>O salário líquido.</li>
+    </ul>
+
+    <p>O resultado é: </p>
+
+    <ul>
+        <li>+Salário Bruto: R$</li>
+        <li>-IR (11%): R$</li>
+        <li>-INSS (8%): R$</li>
+        <li>-Sindicato (5%): R$</li>
+        <li>=Salário Liquido: R$</li>
+    </ul>
+
+    <form>
+        Salário bruto: <input id="salario-bruto" type="number"><br>
+        <button type="button" onclick="CalcularSalario();">Calcular salário líquido</button>
+
+        <div id="resposta"></div>
+    </form>
+
+    <script src="007.js"></script>
+</body>
+</html>
